@@ -1,0 +1,77 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body
+{
+    font-family: monospace;
+    background-image: url(/img/bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.wrapper{
+    width:90%;
+    margin:auto;
+    border: 1px solid black;
+    height:1000px;
+}
+nav h1{
+    text-align:center;
+    font-size:45px;
+    text-transform: uppercase;
+}
+.menu
+{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    
+    
+}
+.menu li{
+    font-size:30px;
+    background-color: crimson;
+    width:260px;
+    height:70px;
+    border-radius:10px;
+   
+    padding-top:15px;
+  text-align: center;
+}
+.menu li .menu-item
+{
+    display:none;
+}
+.menu li:hover{
+    background-color:aqua;
+}
+.menu li:hover > ul
+{
+    
+    display:block;
+    
+    
+}
+.menu li:hover > ul li
+{
+    list-style-type: none;
+    background-color:blueviolet;
+    border-bottom:1px dotted white;
+    
+    
+}
+.menu li:hover > ul li a
+{
+    text-decoration: none;
+    color:greenyellow;
+    
+    
+    
+}
+
+
+
+

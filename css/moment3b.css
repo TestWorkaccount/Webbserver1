@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+        position static, 
+        position:relative 
+        position:absolute 
+        position:fixed 
+        position:sticky
+        */
+
+        .header {
+            background-color: #000;
+            color:#fff;
+            height:100px;
+            width:100%;
+            margin-bottom: 50px;
+            position:fixed;
+            text-align: center;
+        
+                }
+            
+         
+        .box1a{
+            width:400px;
+            height:200px;
+            border:10px solid #3f3f3f;
+            background-color: aqua;
+            position:absolute;
+            top:300px;
+            right:20px;
+            z-index:2;
+        }
+        .box2a{
+            width:400px;
+            height:200px;
+            border:10px solid #3f3f3f;
+            background-color:green;
+            position:absolute;
+            top:400px;
+            left:100px;
+            z-index: 1;
+        }
+        .box3a{
+            width:400px;
+            height:200px;
+            border:10px solid #3f3f3f;
+            background-color:yellow;
+            position:absolute;
+            top:200px;
+            left:300px;
+            z-index: 0;
+        }
+        .container{
+            width:800px;
+            height:800px;
+            border:1px solid black;
+            position:relative;
+        }
+        .bottom{
+            position:relative;
+            top:1000px;
+            height:600px;
+        }
+        .container2{
+            position:relative;
+            border:1px solid black;
+            width:1300px;
+            height:800px;
+            display:flex;
+        }
+        .box11a{
+            width:400px;
+            height:200px;
+            border:10px solid #3f3f3f;
+            background-color: aqua;
+           
+        }
+        .box12a{
+            width:400px;
+            height:200px;
+            border:10px solid #3f3f3f;
+            background-color:green;
+           
+        }
+        .box13a{
+            width:400px;
+            height:200px;
+            border:10px solid #3f3f3f;
+            background-color:yellow;
+           
+        }
