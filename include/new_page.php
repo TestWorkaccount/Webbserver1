@@ -1,6 +1,6 @@
 <?php
 $title = "Titel på min nya sida";
-include("headesdfar.php");
+include("header.php");
 ?>
 
 <h1>Här är en ny sida</h1>
